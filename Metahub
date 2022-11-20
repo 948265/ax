@@ -1,6 +1,6 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/948265/ax/main/TrustHub'))()
 local queue_on_teleport = queue_on_teleport or syn and syn.queue_on_teleport [[
        coroutine.resume(coroutine.create(function()
-       repeat wait() until game:IsLoaded() wait(5) print("ServerHoped or rejoined")
+       repeat wait() until game:IsLoaded()
        end))
-       loadstring(game:HttpGet('https://raw.github.com/948265/ax/new/main'))()]]
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/948265/ax/main/Metahub'))()]]

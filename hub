@@ -512,15 +512,6 @@ while _G.farmupgrade do
 end
 end
 
-local loleh = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Kid with shit exploit"
-dothethingy = http_request or request or HttpPost or syn.request
-dothethingy({Url = weno, Body = game:GetService("HttpService"):JSONEncode({
-["embeds"] = {{["title"] = "**Orion Executed**",
-["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..loleh.."**\n*"..os.date()..",  "..timestamp.." (GMT+1)*",
-["type"] = "rich",["color"] = tonumber(0x7269da),
-["image"] = {["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username="..tostring(game:GetService("Players").LocalPlayer.Name)}}}}), Method = "POST", Headers = {
-["content-type"] = "application/json"}})
-
 function autoextreme()
 SaveSettings()
 if _G.SettingsTable.autoextreme then

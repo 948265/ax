@@ -3,7 +3,7 @@ a1 = game:GetService("HttpService"):JSONDecode(readfile("Bobsettings" .. game.Pl
 dothethingy = http_request or request or HttpPost or syn.request
             dothethingy({Url = a1.WhURL, Body = game:GetService("HttpService"):JSONEncode({
             ["embeds"] = {{["title"] = "**Rejoined**",
-            ["description"] = "**Username: **" .. game.Players.LocalPlayer.Name,
+            ["description"] = "**Username: **" .. game.Players.LocalPlayer.Name .. '\n' .. '**MessageError: **' .. a1.messageerror,
             ["type"] = "rich",
             ["color"] = tonumber(0x7269da)}}}), 
             Method = "POST", Headers = {

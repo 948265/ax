@@ -1,6 +1,6 @@
-a1 = _G.SettingsTable.WhURL
+a1 = game:GetService("HttpService"):JSONDecode(readfile("Bobsettings" .. game.Players.LocalPlayer.Name .. ".txt"))
 dothethingy = http_request or request or HttpPost or syn.request
-            dothethingy({Url = a1, Body = game:GetService("HttpService"):JSONEncode({
+            dothethingy({Url = a1.WhURL, Body = game:GetService("HttpService"):JSONEncode({
             ["embeds"] = {{["title"] = "**Rejoined**",
             ["description"] = "**Username: **" .. game.Players.LocalPlayer.Name,
             ["type"] = "rich",

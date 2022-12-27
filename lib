@@ -1757,5 +1757,4 @@ function OrionLib:MakeWindow(WindowConfig)
 	
 	return TabFunction
 end   
-OrionLib:MakeWindow({IntroText = "BOB HUB",Name = "Bob Hub"})
 return OrionLib

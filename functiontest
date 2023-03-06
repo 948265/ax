@@ -1,0 +1,3 @@
+function sum(a, b)
+return print(a+b)
+end
